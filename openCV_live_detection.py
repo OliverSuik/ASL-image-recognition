@@ -57,7 +57,7 @@ while True:
       pred_class,pred_idx,outputs = fastai_model.predict(tensor(rgb.astype(np.uint8)))
   elif select_model == 1:
     img = np.expand_dims(rgb, axis=0)
-    pred_idx = np.argmax(sequental_model.predict(img))
+    pred_idx = np.argmax(efficientnet_model.predict(img))
   elif select_model == 2:
     img = np.expand_dims(rgb, axis=0)
     pred_idx = np.argmax(sequental_model.predict(img))
