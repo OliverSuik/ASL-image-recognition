@@ -12,6 +12,9 @@ For object-detection we built a custom Python script that predicts the hand-sign
 
 ### Used sources:
 https://ai.googleblog.com/2019/05/efficientnet-improving-accuracy-and.html
+
 https://www.fast.ai/
+
 https://faroit.com/keras-docs/1.2.0/getting-started/sequential-model-guide/
+
 https://opencv.org/
